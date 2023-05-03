@@ -34,3 +34,35 @@ class Puzzle(object):
         return self.resuelto
 
     */
+#include <iostream>
+#include "Puzzle.h"
+
+Puzzle::Puzzle(std::string objeto1, std::string objeto2, 
+            std::string accionResuelve, std::string descripcionNoResuelto, 
+            std::string descripcionResuelto){
+                _objeto1 = objeto1;
+                _objeto2 = objeto2;
+                _accionResuelve = accionResuelve;
+                _descripcionNoResuelto = descripcionNoResuelto;
+                _descripcionResuelto = descripcionResuelto;
+                _resuelto = false;
+            };
+
+std::string Puzzle::mostrarDescripcion(){
+
+};
+std::string Puzzle::mostrarAccion(){
+
+};
+bool Puzzle::resolverPuzzle(){
+
+};
+std::string Puzzle::mostrarNombreObjeto1(){
+
+};
+std::string Puzzle::mostrarNombreObjeto2(){
+
+};
+bool Puzzle::statusSolved(){
+    return _resuelto;
+};

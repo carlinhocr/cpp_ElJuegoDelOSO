@@ -51,8 +51,13 @@ class Puzzle {
             std::string mostrarNombreObjeto1();
             std::string mostrarNombreObjeto2();
             bool statusSolved();
-
     private:
+            std::string _objeto1;
+            std::string _objeto2;
+            std::string _accionResuelve;
+            std::string _descripcionNoResuelto;
+            std::string _descripcionResuelto;
+            bool _resuelto;
 }
 
 #endif
