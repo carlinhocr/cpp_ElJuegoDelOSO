@@ -35,6 +35,7 @@ class Puzzle(object):
 
     */
 #include <iostream>
+#include "ObjetoJuego.h"
 #include "Puzzle.h"
 
 Puzzle::Puzzle(std::string objeto1, std::string objeto2, 

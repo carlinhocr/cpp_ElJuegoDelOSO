@@ -38,9 +38,11 @@ class Puzzle(object):
 #ifndef Puzzle_h
 #define Puzzle_h
 #include <iostream>
+#include "ObjetoJuego.h"
 
 class Puzzle {
-
+// Objeto 1 y Objeto 2 no son strings sino que son de la clase objetos
+// Probarlo!!!!
     public:
             Puzzle(std::string objeto1, std::string objeto2, 
             std::string accionResuelve, std::string descripcionNoResuelto, 
