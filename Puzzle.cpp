@@ -50,19 +50,24 @@ Puzzle::Puzzle(std::string objeto1, std::string objeto2,
             };
 
 std::string Puzzle::mostrarDescripcion(){
+    if _resuelto:
+        return _descripcionResuelto;
+    else:
+        return _descripcionNoResuelto;
 
 };
 std::string Puzzle::mostrarAccion(){
-
+    return _accionResuelve;
 };
 bool Puzzle::resolverPuzzle(){
-
+    _resuelto = true;
+    return _descripcionResuelto;
 };
 std::string Puzzle::mostrarNombreObjeto1(){
-
+    return _objeto1;
 };
 std::string Puzzle::mostrarNombreObjeto2(){
-
+    return _objeto2;
 };
 bool Puzzle::statusSolved(){
     return _resuelto;
